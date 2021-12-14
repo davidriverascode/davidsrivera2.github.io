@@ -1,0 +1,355 @@
+:root {
+    --shadow: #000000;
+    --1: #07393C;
+    --2: #F0EDEE;
+    --3: #FF9B54;
+    --4: #720026;
+    --5: #CE4257;
+    --6: #FF7F51;
+    --7: #07393C;
+    --font: 'Share Tech Mono', monospace;
+}
+/* 
+:root {
+    --name: 'Blue and Orange';
+    --shadow: #000000;
+    --1: #326273;
+    --2: #823329;
+    --3: #5C9EAD;
+    --4: #6F7D8C;
+    --5: #E39774;
+    --6: #A9D8B8;
+    --7: #EEEEEE;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'Grey and Orange';
+    --shadow: #000000;
+    --1: #212227;
+    --2: #212227;
+    --3: #BDD4E7;
+    --4: #FDFFFC;
+    --5: #8693AB;
+    --6: #FF9F1C;
+    --7: #FDFFFC;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'Red Yellow Grey', monospace;
+    --shadow: #000000;
+    --1: #BF211E;
+    --2: #BF211E;
+    --3: #E9CE2C;
+    --4: #69A197;
+    --5: #AFBFC0;
+    --6: #E5F993;
+    --7: #9FA4A9;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'Purple and light green and light blue';
+    --shadow: #000000;
+    --1: #49306B;
+    --2: #49306B;
+    --3: #ACE4AA;
+    --4: #E1CDB5;
+    --5: #90708C;
+    --6: #BADEFC;
+    --7: #635380;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'red and orange and turquoise';
+    --shadow: #000000;
+    --1: #410B13; 
+    --2: #421820;
+    --3: #1B998B;
+    --4: #1B998B;
+    --5: #BA1F33;
+    --6: #C5D86D;
+    --7: #CD5D67; 
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'red and orange Variant';
+    --shadow: #000000;
+    --1: #3B1F2B;
+    --2: #383961;
+    --3: #79ADDC;
+    --4: #5F758E;
+    --5: #DB162F;
+    --6: #DBDFAC;
+    --7: #79ADDC;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+
+/* :root {
+    --name: 'light cyan and red and dark blue and orange';
+    --shadow: #000000;
+    --1: #011627;
+    --2: #126782;
+    --3: #41EAD4;
+    --4: #FDFFFC;
+    --5: #F71735;
+    --6: #FF9F1C;
+    --7: #FDFFFC;
+    --font: 'Share Tech Mono', monospace;
+} */
+
+/* :root {
+    --name: 'Original';
+    --shadow: #000000;
+    --1: #022131;
+    --2: #023047;
+    --3: #0197F6;
+    --4: #68C5DB;
+    --5: #D7263D;
+    --6: rgb(250, 225, 0);
+    --7: rgb(255, 244, 144);
+    --font: 'Share Tech Mono', monospace;
+} */
+
+.mainpage__line {
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: var(--6);
+    width: 100%;
+    box-shadow: 0px 0px 8px var(--shadow);
+}
+
+.body {
+    padding: 0px;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font);
+    margin: 0;
+}
+
+.mainpage {
+    background-color: var(--1);
+    height: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0;
+    z-index: 100;
+}
+
+.mainpage__content {
+    padding: 40px;
+}
+
+.mainpage__title {
+    color: var(--3);
+    margin-bottom: 50px;
+    font-size: 15vw;
+
+}
+
+.mainpage__subtitle {
+    margin-top: 80px;
+    width: fit-content;
+    color: var(--5);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4vw;
+    margin-left: 5px;
+    border-bottom: 2px solid var(--6);
+    padding-bottom: 2px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.future__span {
+    color: var(--6);
+    font-family: 'Share Tech Mono', monospace;
+    border-bottom: 2px solid var(--2);
+    padding-bottom: 2px;
+}
+
+.keycaps__span {
+    color: var(--2);
+    font-family: 'Share Tech Mono', monospace;
+    border-bottom: 2px solid var(--5);
+    padding-bottom: 2px;
+}
+
+.mainpage__product__tiles {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.mainpage__product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
+    gap: 3vw;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 2px;
+    padding-top: 30px;
+}
+
+.product__img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    /* border: 2px solid var(--darkblue); */
+    box-shadow: 0px 2px 20px -2px var(--shadow);
+    border-radius: 15px;
+
+}
+
+.product__img:hover {
+    box-shadow: 0px 0px 5px 2px var(--shadow);
+    transition: 0.4s ease-in-out;
+}
+
+.p__img1 {
+    position: absolute;
+}
+.p__img2 {
+    position: absolute;
+}
+.p__img3 {
+    position: absolute;
+}
+
+.product__link {
+    font-size: 3vw;
+    text-decoration: none;
+    color: var(--2);
+    font-weight: 800;
+    margin-left: 2px;
+    margin-top: 40px;
+    background-color: var(--6);
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 5px 20px var(--shadow);
+}
+
+.product {
+    background-color: var(--5);
+    padding: 2vw;
+    display: grid;
+    /* box-shadow: 2px 2px 30px black; */
+    border-radius: 15px;
+}
+
+.product:hover {
+    background-color: var(--3);
+    scale: 150%;
+    transition: 0.4s ease-in-out;
+}
+
+.product__link:hover {
+    background-color: var(--5);
+    transition: 0.4s ease-in-out;
+}
+
+.picture__container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: var(--5);
+    border-radius: 15px;
+}
+
+.mainpage__image {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 30px var(--shadow);
+    border-radius: 15px;
+}
+
+.review__container__title {
+    text-align: center;
+}
+
+.mainpage__reviews__section {
+    border: 7px solid var(--bloodorange);
+    background-color: var(--cyan);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.reviews__title {
+    text-align: center;
+    color: var(--3);
+    font-size: 3rem;
+    /* background-color: var(--red); */
+    margin-block: 40px;
+}
+
+.mainpage__reviews__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    /* padding-inline: 60px; */
+    gap: 8vw;
+    margin-block: 30px;
+    background-color: var(--5);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.review {
+    background-color: var(--3);
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px var(--shadow);
+}
+
+#review__comment {
+    color: var(--2);
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.rating__container {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 100%;
+    height: auto;
+}
+
+.star__list {
+    justify-content: space-between;
+    display: inline;
+}
+
+.star {
+    display: inline;
+    font-size: 2vw;
+    color: var(--2);
+    height: auto;
+    padding-inline: 0px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#r3star5 {
+    color: var(--5);
+}
+
+#r1star5 {
+    color: var(--5);
+}
+
+#r1star4 {
+    color: var(--5);
+}
+

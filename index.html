@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Caps</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home__mainpage.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:wght@900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="/Websites/Website 3/app_3.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar__container">
+            <div class="logo__container">
+                <a href="https://davidsrivera.github.io/index.html" class="logo__text">DataCaps</a>
+                <a href="https://davidsrivera.github.io/products.html"><i class="fa fa-keyboard" id="logo__img"></i></a>
+            </div>
+            <div class="search__div">
+                <div class="searchbar__to__toggle"><i class="fa fa-search"></i><input type="text" class="search__input" id="search__input__id"></div>
+            </div>
+
+            <div class="backbutton">
+                <ul class="block__list" onclick="openPagesContainer();">
+                    <li class="block" id="b1"></li>
+                    <li class="block"></li>
+                    <li class="block"></li>
+                </ul>
+            </div>
+            
+            <div class="pages__container">
+                <ul class="pages__list">
+                    <li class="page">
+                        <!-- <a href="/Websites/Website 3/search.html" class="page__item">Search</a> -->
+                        <a href="javascript:insertASearchBar();"id="searchbar__id" class="page__item" onclick="insertASearchBar();">Search</a>
+                    </li>
+                    <li class="page">
+                        <a href="/Websites/Website 3/help.html" class="page__item">Help</a>
+                    </li>
+                    <li class="page">
+                        <a href="/Websites/Website 3/contact_us.html" class="page__item">Contact Us</a>
+                    </li>
+                    <li class="page">
+                        <a href="/Websites/Website 3/products.html" class="page__item">Products</a>
+                    </li>
+                    <li class="page">
+                        <a href="/Websites/Website 3/cart.html" class="page__item">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mainpage">
+        <div class="mainpage__content">
+
+            <h3 class="mainpage__subtitle">The <span class="future__span">future</span> of <span class="keycaps__span">keycaps</span></h3>
+            <h1 class="mainpage__title">Data Caps</h1>
+
+            <div class="mainpage__line"></div>
+
+            <div class="picture__container">
+                <img src="/Websites/Website 3/images/red-white_keyboard_diagonal.jpg" alt="image" class="mainpage__image">
+            </div>
+
+            <div class="mainpage__line"></div>
+
+            <div class="mainpage__product__tiles">
+                <div class="mainpage__product_tiles__container">
+                    <div class="mainpage__product">
+                        <div class="product">
+                            <img src="/Websites/Website 3/images/red-white_keyboard_skyview.jpg" alt="product__img" class="product__img" id="p__img1" onclick="makeThingBigger(productImage1);">
+                            <a href="/Websites/Website 3/products.html" class="product__link" >Hash Caps</a>
+                        </div>
+                        <div class="product">
+                            <img src="/Websites/Website 3/images/green-yellow_keyboard_skyview.jpg" alt="product__img" class="product__img" id="p__img2" onclick="makeThingBigger(productImage2);">
+                            <a href="/Websites/Website 3/products.html" class="product__link" >Matrix Caps</a>
+                        </div>
+                        <div class="product">
+                            <img src="/Websites/Website 3/images/yellow-blue_keyboard_skyview.jpg" alt="product__img" class="product__img" id="p__img3" onclick="makeThingBigger(productImage3);">
+                            <a href="/Websites/Website 3/products.html" class="product__link" >Tuple Caps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mainpage__line"></div>
+         
+
+
+            <div class="mainpage__reviews__section">
+                <h2 class="reviews__title">Real World Reviews</h2>
+                <div class="mainpage__reviews__container">
+
+                    <div class="review" id="review_1">
+                        <div class="rating__container" id="rating__container_1">
+                            <ul class="star__list">
+                                <li class="star"><i class="fa fa-star" id="r1star1"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r1star2"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r1star3"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r1star4"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r1star5"></i></li>
+                            </ul>
+                        </div>
+                        <p class="text" id="review__comment">These were such cool keycaps</p>
+                    </div>
+                    <div class="review" id="review_2">
+                        <div class="rating__container" id="rating__container_1">
+                            <ul class="star__list">
+                                <li class="star"><i class="fa fa-star" id="r2star1"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r2star2"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r2star3"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r2star4"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r2star5"></i></li>
+                            </ul>
+                        </div>
+                        <p class="text" id="review__comment">Delicious, 10 out of 10</p>
+                    </div>
+                    <div class="review" id="review_2">
+                        <div class="rating__container" id="rating__container_1">
+                            <ul class="star__list">
+                                <li class="star"><i class="fa fa-star" id="r3star1"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r3star2"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r3star3"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r3star4"></i></li>
+                                <li class="star"><i class="fa fa-star" id="r3star5"></i></li>
+                            </ul>
+                        </div>
+                        <p class="text" id="review__comment">AND HIS NAME IS JOHN CENA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__container">
+
+                <div class="socials__container">
+                    <div class="icons__container">
+                        <ul class="socials__list">
+                            <li class="social__link">
+                                <i class="fa fa-dove"></i>
+                            </li>
+                            <li class="social__link">
+                                <i class="fa fa-camera-retro"></i>
+                            </li>
+                            <li class="social__link"><i class="fa fa-video"></i></li>
+                            <li class="social__link" id="facebook">f</li>
+                        </ul>
+                    </div>
+                    <div class="names">
+                        <ul class="socials__text__list">
+                            <li class="social__name">Twitter</li>
+                            <li class="social__name">Instagram</li>
+                            <li class="social__name">Youtube</li> 
+                            <li class="social__name">Facebook</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="extra__pages__container">
+                    <ul class="extra__pages__list">
+                        <li class="extra__page">
+                            <a href="/Websites/Website 3/search.html" class="extra__page__link">Search</a>
+                        </li>
+                        <li class="extra__page">
+                            <a href="/Websites/Website 3/help.html" class="extra__page__link">Help</a>
+                        </li>
+                        <li class="extra__page">
+                            <a href="/Websites/Website 3/contact_us.html" class="extra__page__link">Contact Us</a>
+                        </li>
+                        <li class="extra__page">
+                            <a href="/Websites/Website 3/products.html" class="extra__page__link">Products</a>
+                        </li>
+                        <li class="extra__page">
+                            <a href="/Websites/Website 3/cart.html" class="extra__page__link">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="/Websites/Website 3/app_3.js"></script>
+</html>

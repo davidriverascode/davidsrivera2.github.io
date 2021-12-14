@@ -1,0 +1,130 @@
+* {
+    font-family: var(--font);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: var(--3);
+    /* padding: 10px; */
+}
+
+.footer__container {
+    background-color: var(--5);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: 200px;
+    gap: 5vw;
+    height: 200px;
+    padding: 20px;
+}
+
+.socials__container {
+    display: flex;
+    /* background-color: green; */
+    height: 160px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.extra__pages__container {
+    display: flex;
+    /* background-color: var(--darkblue); */
+    height: 160px;
+    padding: 5px;
+    align-items: center;
+}
+
+.icons__container {
+    display: flex;
+    padding-inline: 5px;
+    /* background-color: var(--greyblue); */
+    margin: 0px;
+    cursor: pointer;
+}
+
+.socials__text__list {
+    padding-inline: 5px;
+    list-style-type: none;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.social__name {
+    padding-block: 8px;
+    font-weight: 800;
+    color: var(--2);
+}
+
+.socials__list {
+    display: block;
+    list-style-type: none;
+    /* background-color: var(--red); */
+}
+
+.social__link {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    /* max-width: ; */
+    color: var(--2);
+    cursor: pointer;
+}
+
+.social__link:hover {
+    color: var(--6);
+    transition: 0.4s ease-out;
+    font-size: 1.6rem;
+}
+
+.social__name:hover {
+    transition: 0.4s ease-out;
+    color: var(--6);
+    font-size: 1.2rem;
+}
+
+#facebook {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: var(--2);
+    /* background-color: var(--darkblue); */
+    border-radius: 3px;
+    /* padding-left: 7px;
+    padding-right: 7px;
+    padding: 5px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.extra__pages__list {
+    /* background-color: var(--blue); */
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    border-block: 2px solid var(--6);
+    padding-block: 10px;
+}
+
+.extra__page:hover {
+    transition: 0.4s ease-out;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.extra__page {
+    display: inline;
+    list-style-type: none;
+    list-style: none;
+}
+
+.extra__page__link {
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    color: var(--2);
+}
+
+.extra__page__link:hover {
+    color: var(--7);
+}

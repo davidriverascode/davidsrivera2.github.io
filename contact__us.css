@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 'Kumbh Sans', sans-serif;
+}
+
+/* :root {
+    --1: #022131;
+    --2: #023047;
+    --shadow: #022131;
+    --3: #0197F6;
+    --4: #448FA3;
+    --7: #68C5DB;
+    --5: #D7263D;
+    --6: rgb(250, 225, 0);
+} */
+
+.cus__mainpage {
+    background-color: var(--2);
+    margin: 0px;
+}
+
+.cus__mainpage__content {
+    background-color: var(--1);
+    padding: 40px;
+}
+
+.cus__mainpage__title {
+    font-size: 10vw;
+    margin-block: 20px;
+    margin-left: 5px;
+    color: var(--6);
+}
+
+.cus__mainpage__contact__form {
+    margin-block: 20px;
+    padding: 15px;
+    /* background-color: var(--5); */
+    width: 100%;
+    border-radius: 15px;
+}
+
+.form__container {
+    padding: 20px;
+    background-color: var(--5);
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px var(--shadow);
+
+}
+
+#name {
+    height: 40px;
+    border: none;
+    padding-inline: 15px;
+    margin-block: 5px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    background-color: var(--1);
+    color: var(--6);
+    border-radius: 15px;
+    margin-block: 10px;
+    box-shadow: 0px 0px 20px inset var(--shadow);
+}
+
+#message {
+    height: 30vh;
+    width: 100%;
+    padding: 15px;
+    margin-block: 5px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    font-size: 0.85rem;
+    font-weight: 800;
+    background-color: var(--1);
+    color: var(--6);
+    border-radius: 15px;
+    margin-block: 10px;
+    /* border: 2.5px solid var(--yellow); */
+    box-shadow: 0px 0px 20px inset var(--shadow);
+    border: none;
+}
+
+.label {
+    color: var(--2);
+    font-weight: 600;
+    padding-left: 10px;
+    margin-block: 10px;
+}
+
+.buttons__container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-block: 20px;
+    justify-content: space-evenly;
+}
+
+.send__message {
+    background-color: var(--5);
+    border: none;
+    padding: 10px;
+    color: var(--2);
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px var(--shadow);
+    width: 100%;
+    margin-inline: 20px;
+    cursor: pointer;
+}
+
+.clear__message {
+    background-color: var(--5);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: var(--2);
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px var(--shadow);
+    margin-inline: 20px;
+    cursor: pointer;
+}
+

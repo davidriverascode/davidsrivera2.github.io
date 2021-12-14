@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+/* :root {
+    --ultradarkblue: #022131;
+    --darkblue: #023047;
+    --shadow: #022131;
+    --blue: #0197F6;
+    --greyblue: #448FA3;
+    --lightblue: #68C5DB;
+    --red: #D7263D;
+    --yellow: rgb(250, 225, 0);
+} */
+
+.mainpage__title {
+    color: var(--3);
+}
