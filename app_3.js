@@ -58,7 +58,7 @@ function addProducts(userSearch) {
 }
 
 function bringToSearchPage() {
-    location.replace("/Websites/Website 3/search.html");
+    location.replace("/search.html");
 }
 
 const searchInput = document.querySelector('.search__input');
